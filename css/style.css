@@ -1,0 +1,19 @@
+/* color */
+/* .list-style: none - это как стиль -утилита, для того чтобы у нужных списков забрать точки  */
+/* root ставиться выше боди это как запасные стили, которые вдруг надо будет поменять */
+:root {
+    --primary-text-color: black;
+    --title-text-color: blue;
+    --accent-text-color: red;
+}
+
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: blueviolet;
+}
